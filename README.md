@@ -10,7 +10,8 @@
 6. [API Reference](#api-reference)
 7. [Usage Examples](#usage-examples)
 8. [Security Guidelines](#security-guidelines)
-9. [FAQ](#faq)
+9. [Demo Video](#demo-video)
+10. [FAQ](#faq)
 
 ---
 
@@ -320,6 +321,11 @@ You'll receive updates on your application status. Good luck! 🍀
 - Keep software updated to latest versions
 
 ---
+## Demo Video
+[![Video](https://raw.githubusercontent.com/Quan3Xin/AgentGoMcp_Demo/refs/heads/main/video.png)](https://www.youtube.com/watch?v=9j6Ghq6FOvA)
+
+---
+
 
 ## FAQ
 
