@@ -23,7 +23,7 @@
 
 ###  Demo Video
 
-The demo video showcases authentication, agent scoring, and market data visualization features.
+This demo video shows how the AgentGo MCP Service is used in Cursor to support authentication, agent scoring, and market data visualization
 
 [![Video](https://raw.githubusercontent.com/Quan3Xin/AgentGoMcp_Demo/refs/heads/main/video.png)](https://www.youtube.com/watch?v=9j6Ghq6FOvA)
 
@@ -122,9 +122,9 @@ Default mode
 | Name | Description | Usage Example |
 |------|-------------|---------------|
 | `basic_login_flow` | Complete authentication process with wallet verification | "I want to authenticate with my wallet address 0x742d35..." |
-| `query_agent_score` | Get detailed agent performance metrics and ratings | "What's the Sigma score for agent aixbit?" |
+| `query_agent_score` | Get detailed agent performance metrics and ratings | "What's the Sigma score for agent aixbt?" |
 | `market_data_query` | Retrieve various market visualization data and trends | "Show me the current price bubble chart" |
-| `certification_application` | Apply for official Sigma certification badges | "I want to apply for Sigma certification for aixbit" |
+| `certification_application` | Apply for official Sigma certification badges | "I want to apply for Sigma certification for aixbt" |
 
 ### Tools
 
