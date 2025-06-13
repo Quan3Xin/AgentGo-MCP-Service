@@ -49,9 +49,9 @@ graph TD
     C --> E[Data Query Module]
     C --> F[Certification Module]
 
-    D -->|1. Login Message| D1[Challenge Generation]
-    D1 -->|2. Signature| D2[EIP-191 Signature Validation]
-    D2 -->|3. Login Success| D3[Return Token]
+    D -->|1.Login Message| D1[Challenge Generation]
+    D1 -->|2.Signature| D2[EIP-191 Signature Validation]
+    D2 -->|3.Login Success| D3[Return Token]
 
     E -->|Query Request| E1[TrustGo API]
     E -->|Query Request| E2[AgentGo API]
