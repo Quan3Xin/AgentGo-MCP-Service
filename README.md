@@ -4,7 +4,7 @@
 
 1. [Overview](#overview)
 2. [Architecture](#architecture)
-    3. [Integration with Cursor](#integration-with-cursor)
+3. [Integration with Cursor](#integration-with-cursor)
 4. [Prompts and Tools](#available-prompts-and-tools)
 5. [License](#license)
 
