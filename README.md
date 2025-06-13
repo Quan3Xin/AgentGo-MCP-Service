@@ -14,14 +14,14 @@
 
 **AgentGo MCP Service** is an authentication and data query service designed specifically for AI agents, providing blockchain identity authentication, agent scoring queries, market data analysis, and other core capabilities for AI assistants through the MCP protocol.
 
-### ✨ Main Features
+### Main Features
 
-- 🔐 **Secure Authentication** - Blockchain-based identity verification system
-- 📊 **Data Queries** - Real-time agent scoring and market data retrieval
-- 🏆 **Certification Applications** - Sigma certification badge application and management
-- 📈 **Visualization Analysis** - Multi-dimensional market data bubble chart display
+- **Secure Authentication** - Blockchain-based identity verification system
+- **Data Queries** - Real-time agent scoring and market data retrieval
+- **Certification Applications** - Sigma certification badge application and management
+- **Visualization Analysis** - Multi-dimensional market data bubble chart display
 
-### 🎥 Demo Video
+###  Demo Video
 
 [![Video](https://raw.githubusercontent.com/Quan3Xin/AgentGoMcp_Demo/refs/heads/main/video.png)](https://www.youtube.com/watch?v=9j6Ghq6FOvA)
 
