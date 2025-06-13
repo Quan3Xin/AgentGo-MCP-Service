@@ -31,8 +31,8 @@ A comprehensive MCP (Model Context Protocol) service for AgentGo platform integr
 
 ## Documentation
 
-- [English Documentation](./AgentGo_MCP_EN.md)
-- [中文文档](./AgentGo_MCP_CN.md)
+- [English Documentation](./AgentGo_MCP_Service_README_EN.md)
+- [中文文档](./AgentGo_MCP_Service_README.md)
 
 ## Testing
 
@@ -50,15 +50,12 @@ python test_trustgo_login.py
 
 ```
 mcp-server-demo/
-## Project Structure
-
-mcp-server-demo/
-├── agentgo_mcp_service.py      # Main service file
-├── agentgo_api_test.py         # API testing utilities
-├── requirements.txt            # Python dependencies
-├── start_agentgo_service.sh    # Startup script
-├── test_*.py                   # Test scripts
-└── backup/                     # Archived files
+├── AgentGo_MCP_CN.md
+├── AgentGo_MCP_EN.md
+├── README.md
+├── pyproject.toml
+├── requirements.txt
+└── uv.lock
 ```
 
 ## License
