@@ -177,4 +177,4 @@ A: 每几分钟更新一次，依赖具体数据源。
 
 ## 视频演示
 
-[![Demo Video](https://raw.githubusercontent.com/Quan3Xin/AgentGoMcp_Demo/refs/heads/main/video.png)](https://www.youtube.com/watch?v=rKFAPkludaw)
+[![Demo Video](https://raw.githubusercontent.com/Quan3Xin/AgentGoMcp_Demo/refs/heads/main/video.png)](https://www.youtube.com/watch?v=9j6Ghq6FOvA)
