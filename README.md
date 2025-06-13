@@ -50,6 +50,10 @@ python test_trustgo_login.py
 
 ```
 mcp-server-demo/
+## Project Structure
+
+```
+mcp-server-demo/
 ├── agentgo_mcp_service.py      # Main service file
 ├── agentgo_api_test.py         # API testing utilities
 ├── requirements.txt            # Python dependencies
