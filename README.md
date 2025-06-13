@@ -86,7 +86,6 @@ graph TB
 * **Protocol Layer**: MCP standard protocol processing
 * **Service Layer**: AgentGo core business logic
 * **External Services**: Third-party APIs and data sources
-* **Blockchain Layer**: Identity verification and signature validation
 
 ---
 
