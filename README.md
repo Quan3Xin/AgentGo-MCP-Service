@@ -6,7 +6,7 @@
 2. [What is MCP?](#what-is-mcp)
 3. [AgentGo MCP Service Architecture](#agentgo-mcp-service-architecture)
 4. [Core Features](#core-features)
-5. [Quick Start](#quick-start)
+5. [Integration with Cursor](#integration-with-cursor)
 6. [API Reference](#api-reference)
 7. [Usage Examples](#usage-examples)
 8. [Security Guidelines](#security-guidelines)
@@ -88,41 +88,25 @@ graph TB
 
 ---
 
-## Quick Start
+## Integration with Cursor
 
-#### Prerequisites
-- Own a blockchain wallet address
-- Ability to sign messages using wallet software
+Default mode
 
-#### Usage Steps
 
-1. **Tell AI your wallet address**
    ```
-   "My wallet address is: 0x1234567890abcdef..."
+   {
+      "mcpServers": {
+         "AgentGoMcp": {
+         "command": "python3",
+         "args": ["gentgo_mcp_service.py"],
+         "env": {
+            "AGENT_ADDRESS": "0x39a39981bF87EE0e8E9D6434A56f00758c9666f0"
+         }
+         }
+      }
+   }
    ```
-
-2. **Get challenge and sign**
-   ```
-   AI will provide: Login message + Math problem
-   You need to: Calculate answer + Wallet signature
-   ```
-
-3. **Submit signature result**
-   ```
-   Submit signature and calculation result to AI
-   ```
-
-4. **Start querying data**
-   ```
-   "Query agent eliza's score"
-   "Show price bubble chart"
-   ```
-
-5. **Apply for Attestation**
-    ```
-    "I want to apply for Sigma certification"
-    ```
-
+## Functions
 #### `trustgo_login(address, signature, message, number)`
 Execute login verification.
 
