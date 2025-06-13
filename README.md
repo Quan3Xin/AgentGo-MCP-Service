@@ -1,6 +1,8 @@
 # AgentGo MCP Service
 
 A comprehensive MCP (Model Context Protocol) service for AgentGo platform integration, providing agent authentication, score queries, and real-time bubble data analysis.
+## Video Demo
+[![Video](https://raw.githubusercontent.com/Quan3Xin/AgentGoMcp_Demo/refs/heads/main/video.png)](https://www.youtube.com/embed/rKFAPkludaw)
 
 ## Features
 
