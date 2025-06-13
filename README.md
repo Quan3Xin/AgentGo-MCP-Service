@@ -1,6 +1,6 @@
 # AgentGo MCP Service Documentation
 
-## 📖 Table of Contents
+##  Table of Contents
 
 1. [Overview](#overview)
 2. [Architecture](#architecture)
@@ -22,6 +22,8 @@
 - **Visualization Analysis** - Multi-dimensional market data bubble chart display
 
 ###  Demo Video
+
+The demo video showcases authentication, agent scoring, and market data visualization features.
 
 [![Video](https://raw.githubusercontent.com/Quan3Xin/AgentGoMcp_Demo/refs/heads/main/video.png)](https://www.youtube.com/watch?v=9j6Ghq6FOvA)
 
@@ -78,17 +80,23 @@ graph TB
     style K fill:#fff3e0
 ```
 
-### 🏗️ Architecture Description
+##   Description
 
-1. **User Layer**: AI assistants or user interfaces
-2. **Protocol Layer**: MCP standard protocol processing
-3. **Service Layer**: AgentGo core business logic
-4. **External Services**: Third-party APIs and data sources
-5. **Blockchain Layer**: Identity verification and signature validation
+* **User Layer**: AI assistants or user interfaces
+* **Protocol Layer**: MCP standard protocol processing
+* **Service Layer**: AgentGo core business logic
+* **External Services**: Third-party APIs and data sources
+* **Blockchain Layer**: Identity verification and signature validation
 
 ---
 
 ## Integration with Cursor
+To connect to the MCP server from Cursor:
+
+1. Open Cursor and go to Settings (gear icon in the top right)
+2. Click on "MCP" in the left sidebar
+3. Click "Add new global MCP server"
+4. Enter the following details:
 
 Default mode
 
@@ -114,21 +122,21 @@ Default mode
 
 | Name | Description | Usage Example |
 |------|-------------|---------------|
-| `analyze_agent` | Analyze agent performance and capabilities | **User**: "Analyze agent eliza's performance" **Agent**: Provides detailed analysis of technical ability, community contribution, and activity metrics |
-| `compare_agents` | Compare multiple agents side by side | **User**: "Compare eliza, agent-zero, and virtuals" **Agent**: Shows comparative scores and highlights strengths of each agent |
-| `market_overview` | Get overall market analysis and trends | **User**: "Show me the current market overview" **Agent**: Displays market trends, top performers, and key metrics |
-| `certification_guide` | Get guidance on certification process | **User**: "How do I apply for Sigma certification?" **Agent**: Explains certification types, requirements, and application process |
+| `basic_login_flow` | Complete authentication process with wallet verification | "I want to authenticate with my wallet address 0x742d35..." |
+| `query_agent_score` | Get detailed agent performance metrics and ratings | "What's the Sigma score for agent aixbit?" |
+| `market_data_query` | Retrieve various market visualization data and trends | "Show me the current price bubble chart" |
+| `certification_application` | Apply for official Sigma certification badges | "I want to apply for Sigma certification for aixbit" |
 
 ### Tools
 
-| Name | Description | Usage Example |
-|------|-------------|---------------|
-| `trustgo_login` | Execute login verification with blockchain wallet | **User**: "I want to authenticate with wallet 0x742d35..." **Agent**: Provides login message and math challenge for signature verification |
-| `query_sigma_score` | Query agent Sigma score and capability metrics | **User**: "What's the Sigma score for agent eliza?" **Agent**: Returns score breakdown with technical ability, community contribution, and activity level |
-| `query_price_bubble` | Get price bubble chart data for market visualization | **User**: "Show me the current price bubble chart" **Agent**: Generates bubble chart with top performers by market value |
-| `query_sigma_score_bubble` | Get score bubble chart data for agent analysis | **User**: "Display score bubble chart" **Agent**: Shows agent skill distribution visualization |
-| `query_market_share_bubble` | Get market share bubble chart data with time options | **User**: "Market share changes in last 24h" **Agent**: Shows biggest gainers and losers with percentage changes |
-| `apply_sigma_certification` | Apply for Sigma certification (personal or proxy) | **User**: "I want to apply for Sigma certification" **Agent**: Submits application with expected 1-3 day processing time |
+| Name | Description |
+|------|-------------|
+| `trustgo_login` | Execute login verification with blockchain wallet |
+| `query_sigma_score` | Query agent Sigma score and capability metrics |
+| `query_price_bubble` | Get price bubble chart data for market visualization |
+| `query_sigma_score_bubble` | Get score bubble chart data for agent analysis |
+| `query_market_share_bubble` | Get market share bubble chart data with time options |
+| `apply_sigma_certification` | Apply for Sigma certification (personal or proxy) |
 
 ---
 
