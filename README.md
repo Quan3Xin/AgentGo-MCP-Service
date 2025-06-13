@@ -115,7 +115,7 @@ Default mode
 
 ---
 
-## Available Prompts and Tools
+## Prompts and Tools
 
 ### Prompts
 
